@@ -537,7 +537,7 @@ These references informed the opportunity selection. This prototype was independ
 
 ## Author
 
-**Katrina Kaur**
+**Katrina**
 
 AI/ML Engineering Project | October 2026
 
