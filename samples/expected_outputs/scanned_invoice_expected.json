@@ -1,0 +1,15 @@
+{
+  "vendor_name": "Northstar Office Supplies",
+  "invoice_number": "NS-2026-1048",
+  "invoice_date": "2026-10-30",
+  "due_date": "2026-11-14",
+  "currency": "INR",
+  "subtotal": 8000.0,
+  "tax_amount": 1440.0,
+  "total_amount": 9440.0,
+  "payment_status": "Unpaid",
+  "tax_components": {
+    "cgst": 720.0,
+    "sgst": 720.0
+  }
+}

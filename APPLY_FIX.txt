@@ -1,0 +1,10 @@
+DOCUFLOW SCHEMA FIX
+
+1. Back up your current core/schemas.py.
+2. Extract this ZIP into the CYNBIT_DOCUFLOW_AI project root.
+3. Overwrite core/schemas.py.
+4. Run: python -m pytest -v
+
+This adds field_confidence and field_evidence to InvoiceData.
+Existing JSON/database records remain compatible because both fields default
+to empty dictionaries. No database migration or deletion is required.

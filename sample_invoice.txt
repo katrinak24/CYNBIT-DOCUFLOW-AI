@@ -1,0 +1,19 @@
+ABC Technologies Private Limited
+
+TAX INVOICE
+
+Invoice Number: ABC-2026-001
+Invoice Date: 30 October 2026
+Due Date: 15 November 2026
+
+Bill To: Demo Customer
+
+Description          Quantity    Unit Price    Amount
+Software Services       1         10000.00     10000.00
+
+Subtotal:                                      10000.00
+GST (18%):                                      1800.00
+Grand Total:                                   11800.00
+
+Currency: INR
+Payment Status: Unpaid

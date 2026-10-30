@@ -1,0 +1,376 @@
+[
+  {
+    "id": 4,
+    "filename": "DocuFlow_Scanned_Test_Invoice.pdf",
+    "document_type": "invoice",
+    "vendor_name": "NORTHSTAR OFFICE SUPPLIES",
+    "invoice_number": "NS-2026-1048",
+    "invoice_date": "2026-10-30",
+    "due_date": "2026-11-14",
+    "currency": "INR",
+    "subtotal": 8000.0,
+    "tax_amount": 1440.0,
+    "total_amount": 9440.0,
+    "payment_status": "UNPAID",
+    "line_items": [
+      {
+        "description": "Printer paper A4 (ream)",
+        "quantity": 10.0,
+        "unit_price": 350.0,
+        "amount": 3500.0
+      },
+      {
+        "description": "Wireless keyboard",
+        "quantity": 2.0,
+        "unit_price": 1250.0,
+        "amount": 2500.0
+      },
+      {
+        "description": "USB-C hub",
+        "quantity": 1.0,
+        "unit_price": 2000.0,
+        "amount": 2000.0
+      }
+    ],
+    "extraction_notes": [],
+    "field_confidence": {
+      "vendor_name": 1.0,
+      "invoice_number": 1.0,
+      "invoice_date": 1.0,
+      "due_date": 1.0,
+      "currency": 1.0,
+      "subtotal": 1.0,
+      "tax_amount": 1.0,
+      "total_amount": 1.0,
+      "payment_status": 1.0
+    },
+    "field_evidence": {
+      "vendor_name": "NORTHSTAR OFFICE SUPPLIES",
+      "invoice_number": "Invoice Number: NS-2026-1048",
+      "invoice_date": "Invoice Date: 30 October 2026",
+      "due_date": "Due Date: 14 November 2026",
+      "currency": "AMOUNT (INR)",
+      "subtotal": "Subtotal: 8,000.00",
+      "tax_amount": "CGST: 720.00 | SGST: 720.00",
+      "total_amount": "Grand Total: 9,440.00",
+      "payment_status": "Payment Status: UNPAID"
+    },
+    "field_verification": {
+      "vendor_name": "Verified",
+      "invoice_number": "Verified",
+      "invoice_date": "Verified",
+      "due_date": "Verified",
+      "currency": "Verified",
+      "subtotal": "Verified",
+      "tax_amount": "Verified",
+      "total_amount": "Verified",
+      "payment_status": "Verified"
+    },
+    "verification_summary": {
+      "verified_fields": 9,
+      "fields_needing_review": 0,
+      "fields_not_verified": 0,
+      "fields_not_evaluated": 0,
+      "total_fields": 9,
+      "status": "Verified"
+    },
+    "status": "Approved",
+    "issues": [],
+    "created_at": "2026-10-30T10:52:02.216461+00:00",
+    "source_text_available": true,
+    "verification_audit": [
+      {
+        "audit_id": 1,
+        "source_filename": "DocuFlow_Scanned_Test_Invoice.pdf",
+        "original_workflow_status": "Approved",
+        "created_at": "2026-10-30T11:42:39.051412+00:00",
+        "source_text_sha256": "f9c5b9b00e461c82934baa838ff633162cd287ae58ce8bd593d4fe464c506230",
+        "new_verification": {
+          "field_confidence": {
+            "vendor_name": 1.0,
+            "invoice_number": 1.0,
+            "invoice_date": 1.0,
+            "due_date": 1.0,
+            "currency": 1.0,
+            "subtotal": 1.0,
+            "tax_amount": 1.0,
+            "total_amount": 1.0,
+            "payment_status": 1.0
+          },
+          "field_evidence": {
+            "vendor_name": "NORTHSTAR OFFICE SUPPLIES",
+            "invoice_number": "Invoice Number: NS-2026-1048",
+            "invoice_date": "Invoice Date: 30 October 2026",
+            "due_date": "Due Date: 14 November 2026",
+            "currency": "AMOUNT (INR)",
+            "subtotal": "Subtotal: 8,000.00",
+            "tax_amount": "CGST: 720.00 | SGST: 720.00",
+            "total_amount": "Grand Total: 9,440.00",
+            "payment_status": "Payment Status: UNPAID"
+          },
+          "field_verification": {
+            "vendor_name": "Verified",
+            "invoice_number": "Verified",
+            "invoice_date": "Verified",
+            "due_date": "Verified",
+            "currency": "Verified",
+            "subtotal": "Verified",
+            "tax_amount": "Verified",
+            "total_amount": "Verified",
+            "payment_status": "Verified"
+          },
+          "verification_summary": {
+            "verified_fields": 9,
+            "fields_needing_review": 0,
+            "fields_not_verified": 0,
+            "fields_not_evaluated": 0,
+            "total_fields": 9,
+            "status": "Verified"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "filename": "DocuFlow_Scanned_Test_Invoice.pdf",
+    "document_type": "invoice",
+    "vendor_name": null,
+    "invoice_number": "NS-2026-1048",
+    "invoice_date": "2026-10-30",
+    "due_date": "2026-11-14",
+    "currency": "INR",
+    "subtotal": 8000.0,
+    "tax_amount": 1440.0,
+    "total_amount": 9440.0,
+    "payment_status": "UNPAID",
+    "line_items": [
+      {
+        "description": "Printer paper A4 (ream)",
+        "quantity": 10.0,
+        "unit_price": 350.0,
+        "amount": 3500.0
+      },
+      {
+        "description": "Wireless keyboard",
+        "quantity": 2.0,
+        "unit_price": 1250.0,
+        "amount": 2500.0
+      },
+      {
+        "description": "USB-C hub",
+        "quantity": 1.0,
+        "unit_price": 2000.0,
+        "amount": 2000.0
+      }
+    ],
+    "extraction_notes": [],
+    "field_confidence": {
+      "vendor_name": 0.0,
+      "invoice_number": 1.0,
+      "invoice_date": 1.0,
+      "due_date": 1.0,
+      "currency": 1.0,
+      "subtotal": 1.0,
+      "tax_amount": 1.0,
+      "total_amount": 1.0,
+      "payment_status": 1.0
+    },
+    "field_evidence": {
+      "vendor_name": "",
+      "invoice_number": "Invoice Number: NS-2026-1048",
+      "invoice_date": "Invoice Date: 30 October 2026",
+      "due_date": "Due Date: 14 November 2026",
+      "currency": "AMOUNT (INR)",
+      "subtotal": "Subtotal: 8,000.00",
+      "tax_amount": "CGST: 720.00 | SGST: 720.00",
+      "total_amount": "Grand Total: 9,440.00",
+      "payment_status": "Payment Status: UNPAID"
+    },
+    "field_verification": {
+      "vendor_name": "Needs review",
+      "invoice_number": "Verified",
+      "invoice_date": "Verified",
+      "due_date": "Verified",
+      "currency": "Verified",
+      "subtotal": "Verified",
+      "tax_amount": "Verified",
+      "total_amount": "Verified",
+      "payment_status": "Verified"
+    },
+    "verification_summary": {
+      "verified_fields": 8,
+      "fields_needing_review": 1,
+      "fields_not_verified": 0,
+      "fields_not_evaluated": 0,
+      "total_fields": 9,
+      "status": "Needs review"
+    },
+    "status": "Pending Review",
+    "issues": [
+      {
+        "severity": "warning",
+        "code": "missing_vendor_name",
+        "message": "Missing vendor name."
+      }
+    ],
+    "created_at": "2026-10-30T10:44:52.432093+00:00",
+    "source_text_available": true,
+    "verification_audit": [
+      {
+        "audit_id": 2,
+        "source_filename": "DocuFlow_Scanned_Test_Invoice.pdf",
+        "original_workflow_status": "Pending Review",
+        "created_at": "2026-10-30T11:42:39.057365+00:00",
+        "source_text_sha256": "f9c5b9b00e461c82934baa838ff633162cd287ae58ce8bd593d4fe464c506230",
+        "new_verification": {
+          "field_confidence": {
+            "vendor_name": 0.0,
+            "invoice_number": 1.0,
+            "invoice_date": 1.0,
+            "due_date": 1.0,
+            "currency": 1.0,
+            "subtotal": 1.0,
+            "tax_amount": 1.0,
+            "total_amount": 1.0,
+            "payment_status": 1.0
+          },
+          "field_evidence": {
+            "vendor_name": "",
+            "invoice_number": "Invoice Number: NS-2026-1048",
+            "invoice_date": "Invoice Date: 30 October 2026",
+            "due_date": "Due Date: 14 November 2026",
+            "currency": "AMOUNT (INR)",
+            "subtotal": "Subtotal: 8,000.00",
+            "tax_amount": "CGST: 720.00 | SGST: 720.00",
+            "total_amount": "Grand Total: 9,440.00",
+            "payment_status": "Payment Status: UNPAID"
+          },
+          "field_verification": {
+            "vendor_name": "Needs review",
+            "invoice_number": "Verified",
+            "invoice_date": "Verified",
+            "due_date": "Verified",
+            "currency": "Verified",
+            "subtotal": "Verified",
+            "tax_amount": "Verified",
+            "total_amount": "Verified",
+            "payment_status": "Verified"
+          },
+          "verification_summary": {
+            "verified_fields": 8,
+            "fields_needing_review": 1,
+            "fields_not_verified": 0,
+            "fields_not_evaluated": 0,
+            "total_fields": 9,
+            "status": "Needs review"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "filename": "a.pdf",
+    "document_type": "invoice",
+    "vendor_name": "ABC Technologies Private Limited",
+    "invoice_number": "ABC-2026-001",
+    "invoice_date": "2026-10-30",
+    "due_date": "2026-11-15",
+    "currency": "INR",
+    "subtotal": 10000.0,
+    "tax_amount": 1800.0,
+    "total_amount": 11800.0,
+    "payment_status": "Unpaid",
+    "line_items": [
+      {
+        "description": "Software Services",
+        "quantity": 1.0,
+        "unit_price": 10000.0,
+        "amount": 10000.0
+      }
+    ],
+    "extraction_notes": [
+      "The document contained line items with description, quantity, unit price, and amount. Other details like vendor name, invoice number, invoice date, due date, currency, and payment status were extracted from the header and footer of the document."
+    ],
+    "field_verification": {
+      "vendor_name": "Not evaluated",
+      "invoice_number": "Not evaluated",
+      "invoice_date": "Not evaluated",
+      "due_date": "Not evaluated",
+      "currency": "Not evaluated",
+      "subtotal": "Not evaluated",
+      "tax_amount": "Not evaluated",
+      "total_amount": "Not evaluated",
+      "payment_status": "Not evaluated"
+    },
+    "verification_summary": {
+      "verified_fields": 0,
+      "fields_needing_review": 0,
+      "fields_not_verified": 0,
+      "fields_not_evaluated": 9,
+      "total_fields": 9,
+      "status": "Not evaluated"
+    },
+    "status": "Pending Review",
+    "issues": [
+      {
+        "severity": "error",
+        "code": "duplicate_invoice",
+        "message": "This vendor and invoice number already exist in the database."
+      }
+    ],
+    "created_at": "2026-10-30T10:26:54.615890+00:00",
+    "source_text_available": false,
+    "verification_audit": []
+  },
+  {
+    "id": 1,
+    "filename": "a.pdf",
+    "document_type": "invoice",
+    "vendor_name": "ABC Technologies Private Limited",
+    "invoice_number": "ABC-2026-001",
+    "invoice_date": "2026-10-30",
+    "due_date": "2026-11-15",
+    "currency": "INR",
+    "subtotal": 10000.0,
+    "tax_amount": 1800.0,
+    "total_amount": 11800.0,
+    "payment_status": "Unpaid",
+    "line_items": [
+      {
+        "description": "Software Services",
+        "quantity": 1.0,
+        "unit_price": 10000.0,
+        "amount": 10000.0
+      }
+    ],
+    "extraction_notes": [
+      "The document contained line items with description, quantity, unit price, and amount. Other details like vendor name, invoice number, invoice date, due date, currency, and payment status were extracted from the header and footer of the document."
+    ],
+    "field_verification": {
+      "vendor_name": "Not evaluated",
+      "invoice_number": "Not evaluated",
+      "invoice_date": "Not evaluated",
+      "due_date": "Not evaluated",
+      "currency": "Not evaluated",
+      "subtotal": "Not evaluated",
+      "tax_amount": "Not evaluated",
+      "total_amount": "Not evaluated",
+      "payment_status": "Not evaluated"
+    },
+    "verification_summary": {
+      "verified_fields": 0,
+      "fields_needing_review": 0,
+      "fields_not_verified": 0,
+      "fields_not_evaluated": 9,
+      "total_fields": 9,
+      "status": "Not evaluated"
+    },
+    "status": "Approved",
+    "issues": [],
+    "created_at": "2026-10-30T10:21:10.122793+00:00",
+    "source_text_available": false,
+    "verification_audit": []
+  }
+]
